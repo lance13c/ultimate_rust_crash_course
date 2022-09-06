@@ -77,7 +77,5 @@ fn count(arg: String) {
       }
      println!("{}", arg); 
       count += 1;
-    }
-
-    println!(); // This will output just a newline at the end for cleanliness.
+    } 
 }
