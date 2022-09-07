@@ -60,11 +60,7 @@ fn change(args: &mut String) {
 }
 
 fn eat(args: String) -> bool {
-  if args.starts_with("b") && args.contains("a") {
-    return true;
-  }
-
-  false
+  args.starts_with("b") && args.contains("a")
 }
 
 fn add(num1: &i32, num2: &i32) -> i32 {
